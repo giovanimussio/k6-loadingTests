@@ -12,6 +12,7 @@ export let options = {
         {duration: '10s', target:'10'}, //10 users for 10 seconds
         {duration: '60s', target:'20'}  //again 20 users for 1 minute(60s)
     ]
+
 }
 //Main function for VU will call endpoint
 export default function(){
