@@ -2,6 +2,7 @@
 
 First step install k6: brew install k6
 Command to run the tests: k6 run <folder_name>or<file_name>
+Command to run the tests passing virtual users and duration: k6 run --vus <number_of_users> --duration <execution_time>s <folder_name>or<file_name>
 
 # Links
 

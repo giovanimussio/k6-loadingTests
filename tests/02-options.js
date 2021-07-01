@@ -3,6 +3,12 @@
 // call means getr - hhtp.het
 
 import http from 'k6/http';
+
+export let options = {
+    //DEclar configuration
+    vus: 10,
+    duration: '10s' 
+}
 //INIT CODE
 
 
